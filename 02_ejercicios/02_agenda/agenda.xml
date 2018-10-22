@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!DOCTYPE agenda SYSTEM "agenda.dtd">
 <agenda>
+    <contacto>
+        <nombre>ivan</nombre>
+        <direccion>el alto de armentia</direccion>
+        <ciudad>arrigorriagalabeitia</ciudad>
+        <provincia>cundinamarca</provincia>
+        <cp>00000</cp>
+        <numeros>
+            <telefono>676767676</telefono>
+            <fax></fax>
+        </numeros>
+        <email>123@123.com</email>
+        <web>www.123.com</web>
+        <companya>laxula</companya>
+    </contacto>
 </agenda>
