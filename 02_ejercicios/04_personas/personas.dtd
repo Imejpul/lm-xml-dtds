@@ -1,0 +1,20 @@
+<!ELEMENT personas (persona+)>
+
+    <!ELEMENT persona (nombre, emails, parentescos?)>
+
+        <!ELEMENT nombre (#PCDATA)>
+
+            <!ATTLIST nombre
+                    DNI CDATA #REQUIRED
+                    edad CDATA #IMPLIED
+                    sexo (M | H) #REQUIRED>
+
+        <!ELEMENT emails (email+)>
+
+            <!ELEMENT email (#PCDATA)>
+
+        <!ELEMENT parentescos EMPTY>
+
+            <!ATTLIST parentescos
+                    padre_de CDATA #IMPLIED
+                    hermano_de CDATA #IMPLIED>

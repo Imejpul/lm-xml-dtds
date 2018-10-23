@@ -1,3 +1,40 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE personas[
+
+        <!ELEMENT personas (persona+)>
+
+        <!ELEMENT persona (nombre, emails, parentescos?)>
+
+        <!ELEMENT nombre (#PCDATA)>
+
+        <!ATTLIST nombre
+                DNI CDATA #REQUIRED
+                edad CDATA #IMPLIED
+                sexo (M | H) #REQUIRED>
+
+        <!ELEMENT emails (email+)>
+
+        <!ELEMENT email (#PCDATA)>
+
+        <!ELEMENT parentescos EMPTY>
+
+        <!ATTLIST parentescos
+                padre_de CDATA #IMPLIED
+                hermano_de CDATA #IMPLIED>
+        ]>
+
 <personas>
+    <persona>
+        <nombre DNI="72845982-S" sexo="M">Juana</nombre>
+        <emails>
+            <email>juana@egibide.org</email>
+            <email>juana@gmail.com</email>
+        </emails>
+    </persona>
+    <persona>
+        <nombre DNI="82436712-A" sexo="H">Pedro</nombre>
+        <emails>
+            <email>pedro@egibide.org</email>
+        </emails>
+    </persona>
 </personas>
