@@ -1,4 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!DOCTYPE periodico SYSTEM "periodico.dtd">
 <periodico>
+    <cabecera>
+        <nombre>El País</nombre>
+        <fecha>24/10/2018</fecha>
+        <lugar_edicion>Madrid</lugar_edicion>
+        <numero_ejemplar>124</numero_ejemplar>
+        <precio>1.20€</precio>
+    </cabecera>
+    <portada>
+        <titular>Asesinato en Santa Rosa</titular>
+        <noticias_dia>Sube la electricidad 5%</noticias_dia>
+        <noticias_dia>Iván Mejía. Alumno Cum Laude DAM</noticias_dia>
+        <espacio_publicidad>Mercedez Clase A x 500€</espacio_publicidad>
+        <espacio_publicidad>Pan de molde PanRico. El mejor!</espacio_publicidad>
+    </portada>
+    <seccion nombre="Internacional">
+        <noticia>
+            <titulo>Maduro se tira de un puente</titulo>
+            <entradilla>En la madrugada del viernes fue localizado en la orilla este del rio
+            principal de caracas</entradilla>
+            <cuerpo>En la madrugada...
+            </cuerpo>
+        </noticia>
+        <noticia>
+            <titulo>Guerra en Oriente medio?</titulo>
+            <subtitulo></subtitulo>
+            <entradilla></entradilla>
+            <cuerpo></cuerpo>
+        </noticia>
+    </seccion>
+    <seccion nombre="Deportes">
+        <noticia>
+            <titulo>Cristiano es un paquete!</titulo>
+            <subtitulo></subtitulo>
+            <entradilla></entradilla>
+            <cuerpo></cuerpo>
+        </noticia>
+    </seccion>
+    <contraportada></contraportada>
 </periodico>
