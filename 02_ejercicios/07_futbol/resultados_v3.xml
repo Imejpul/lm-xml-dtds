@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!DOCTYPE resultados SYSTEM "resultados_v3.dtd">
 <resultados>
+    <partido
+            local="Zaragoza"
+            visitante="Villarreal"
+            resultado="2-1"
+    />
+    <partido
+            local="Athletic"
+            visitante="Real Sociedad"
+            resultado="2-0"
+    />
+    <partido
+            local="Rayo"
+            visitante="Racing"
+            resultado="4-2"
+    />
 </resultados>

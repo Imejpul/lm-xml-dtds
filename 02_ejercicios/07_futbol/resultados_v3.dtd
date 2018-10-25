@@ -1,1 +1,7 @@
-<!ELEMENT resultados (#PCDATA)>
+<!ELEMENT resultados (partido)>
+
+    <!ELEMENT partido EMPTY>
+        <!ATTLIST partido
+                    local CDATA
+                    visitante CDATA
+                    resultado CDATA >

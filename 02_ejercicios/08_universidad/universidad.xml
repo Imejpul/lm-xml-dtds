@@ -1,4 +1,60 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!DOCTYPE universidad SYSTEM "universidad.dtd">
 <universidad>
+    <alumno>
+        <DNI>72851672E</DNI>
+        <nombre>Juan</nombre>
+        <apellido1>Palomo</apellido1>
+        <apellido2>Guisos</apellido2>
+        <fecha_nac>12/09/1987</fecha_nac>
+        <asignatura nota="NP">
+            <codigo>DISEST</codigo>
+            <creditos>12</creditos>
+            <carrera>Arquitectura</carrera>
+        </asignatura>
+        <asignatura nota="MH">
+            <codigo>CALCEST</codigo>
+            <creditos>7</creditos>
+            <carrera>Arquitectura</carrera>
+        </asignatura>
+    </alumno>
+
+    <profesor>
+        <pasaporte>BE348348JU</pasaporte>
+        <nombre>Lorenzo</nombre>
+        <apellido1>Lamas</apellido1>
+        <apellido2>ElRenegado</apellido2>
+        <fecha_nac>1960</fecha_nac>
+        <contacto>
+            <via>Calle</via>
+            <nombre>Dato</nombre>
+            <numero>2</numero>
+            <cp>01001</cp>
+            <poblacion>Vitoria</poblacion>
+            <provincia>Álava</provincia>
+            <telefono>654321789</telefono>
+            <email>lorenzo@elrenegado.com</email>
+        </contacto>
+        <despacho>148</despacho>
+        <horariosTut>Lunes: 9 -12</horariosTut>
+        <horariosTut>Jueves: 10 -13</horariosTut>
+        <asignatura>
+            <codigo>DISEST</codigo>
+            <creditos>12</creditos>
+            <carrera>Arquitectura</carrera>
+        </asignatura>
+    </profesor>
+
+    <asignatura>
+        <codigo>DISEST</codigo>
+        <creditos>12</creditos>
+        <carrera>Arquitectura</carrera>
+    </asignatura>
+    <asignatura>
+        <codigo>CALCEST</codigo>
+        <creditos>7</creditos>
+        <carrera>Arquitectura</carrera>
+    </asignatura>
+
+
 </universidad>
